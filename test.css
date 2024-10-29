@@ -1,0 +1,51 @@
+
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    color: white;
+    font-size: 40px;
+    width: 100%;
+    height: 220px;
+    background-color: rebeccapurple;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.slider {
+    width: 50%;
+    height: 500px;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.left, .right {
+    background-color: white;
+    width: fit-content;
+    padding: 20px;
+    position: absolute;
+    top: 44%;
+}
+.left {    
+    left: 0;
+}
+.right {    
+    right: 0;
+}
+
+img {
+    width: 100%;
+}
+.logo, .menu {
+    background-color: white;
+    height: 50px;
+    width: 200px;
+}
